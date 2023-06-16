@@ -1,3 +1,3 @@
-module learngo/bookstore-api
+module github.com/deankinane/go-bookstore-api
 
 go 1.20
