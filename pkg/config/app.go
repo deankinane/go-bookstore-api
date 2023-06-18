@@ -10,7 +10,7 @@ var (
 )
 
 func Connect() {
-	d, err := gorm.Open("postgres", "postgresql://postgres:v4kGz0qHhcsyGMDhgE0C@containers-us-west-74.railway.app:7432/railway")
+	d, err := gorm.Open("postgres", "postgresql://xxx")
 	if err != nil {
 		panic(err)
 	}
